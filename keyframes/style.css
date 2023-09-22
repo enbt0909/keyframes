@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  background-color: blanchedalmond;
+}
+
+.fra {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+  /* animation: color-change 5s ease-in-out; */
+  /* animation-name: color-change;
+  animation-duration: 4s;
+  animation-iteration-count: ease-in;
+  animation-direction: reverse; */
+}
+.fra:hover {
+  animation-name: color-change;
+  animation-duration: 4s;
+  animation-iteration-count: ease-in;
+  /* animation-direction: reverse; */
+}
+/* erste animation */
+/* @keyframes color-change {
+  0% {
+    background: red;
+  }
+  25% {
+    background: green;
+  }
+  50% {
+    background: blue;
+  }
+  75% {
+    background: yellow;;
+  }
+  100% {
+    background: rebeccapurple;
+  }
+} */
+
+/* zweite animation */
+@keyframes color-change  {
+  from {
+    transform: translateX(-10%) rotate(0%);
+  }
+  to {
+    transform: translateX(100%) rotate(360deg);
+    background-color: blue;
+    opacity: 0;
+  }
+}
+
+
+
+/***** 
+div {
+  animation-name
+  animation-duration
+  animation-iteration-count
+  animation-direction 
+  
+}
+
+@keyyframes name {
+  from {
+    transform: translateX(0);
+  to {
+    transform: translateY(100px);
+  }
+*****/
